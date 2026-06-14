@@ -1,0 +1,17 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform working directory (downloaded providers/plugins)
+**/.terraform/
+
+# Terraform binary
+terraform.exe
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Sensitive variable files (uncomment if your tfvars contain secrets like AWS keys)
+# *.tfvars
+# *.tfvars.json
